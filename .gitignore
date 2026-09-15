@@ -1,0 +1,18 @@
+# 构建产物
+build/
+obj/
+ImeIndicator.exe
+*.res
+*.res.o
+
+# 运行时产物
+*.log
+
+# 临时/调试文件
+*.png
+*.tmp
+.probe.txt
+
+# 仓库截图资源(README 用)不受上面 *.png 影响
+!docs/imgs/*.png
+!docs/imgs/*.gif

@@ -1,0 +1,5 @@
+// Visual styles manifest (RT_MANIFEST)
+1 24 "res\\app.manifest"
+
+// exe version info (RT_VERSION) — MinGW builds compile version.rc directly (see build.ps1)
+#include "res\\version.rc"
